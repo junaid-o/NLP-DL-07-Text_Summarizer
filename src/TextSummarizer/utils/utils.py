@@ -2,12 +2,11 @@ import os
 from box.exceptions import BoxValueError
 import yaml
 from TextSummarizer.logger import logging
-from TextSummarizer.exception import TextSummarizerException
 from ensure import ensure_annotations
 from box import ConfigBox
 from pathlib import Path
 from typing import Any
-import sys
+
 
 
 @ensure_annotations
@@ -32,7 +31,7 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
     except BoxValueError:
         raise ValueError("yaml file is empty")
     except Exception as e:
-        raise TextSummarizerException(e, sys) from e
+        raise e
     
 
 
