@@ -1,12 +1,14 @@
 # TRANSFORMER BASED TEXT SUMMARIZER
 
-Python=3.10.12
+[![Python 3.10.12](https://img.shields.io/badge/python-3.10.12-blue.svg)](https://www.python.org/downloads/release/python-31012/)
+![Static Badge](https://img.shields.io/badge/Hugging_Face-Transformer-orange.svg)
+
 
 This repository contains the code and resources for building an advanced text summarization system using the powerful Transformer model from Hugging Face's Transformers library.
 
 ## Project Overview
 
-Text summarization is a crucial task in natural language processing and information retrieval. This project demonstrates the implementation of a state-of-the-art Transformer-based model for generating concise and coherent summaries from longer text documents.
+Text summarization is a crucial task in natural language processing and information retrieval. This project demonstrates the implementation of a Transformer-based model for generating concise and coherent summaries from longer text documents.
 
 The main components of the project include:
 
